@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;}
+
+ 
+.image-head {
+  height: 250px;
+  padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+    }
+    
+    .header {
+        padding-top: 50px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-img {
+    width: 100%;
+    height: 400px;
+    background: url('C:\Users\user\OneDrive\Escritorio\TP\Imagenes\1x\Recurso 3-100.jpg');
+    background-size: cover;
+  }
+
+  nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: #E2B288;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 15px;
+}
+nav > a:hover{
+text-decoration:underline;
+}
+
+
+.subtitulo{
+    color: #f5a087;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+}
+
+.checklist-servicio{
+    width: 55%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #ee8859;
+}
+
+.gallery{
+    background: #f2f2f2;
+}
+
+.contenedor-tienda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+
+.subtitulo{
+    color: #f5a087;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contenedor-Sobre-mi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.cont-about-us img{
+    width: 20%;
+    padding: auto;
+    display: flex;
+    border-radius: 50%;
+
+}
+
+.p .contenedor-Sobre-mi{
+width: 55%;
+align-items: center;
+font-size: 200;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap:unset;
+
+
+
+}
+
+.contenedor-Sobre-mi{
+    margin-bottom: 20px;
+}
+
+
+
+
+footer{
+    background: #f3b5a2;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.header {
+    color: #ffffff;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #f3d0c5;
+}
+
